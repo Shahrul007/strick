@@ -1,0 +1,621 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+h1,h2, h3, h4, h5, p, ul {
+   margin: 0;
+   padding: 0;
+}
+header{
+
+background-color: #f9f9f9;
+
+padding: 21px;
+}
+.header_wrapper{
+
+width: 90%;
+
+margin: auto;
+
+display: flex;
+
+justify-content: space-between;
+
+align-items: center;
+}
+.logo{
+
+width: 20%;
+
+align-items: center;
+}
+.logo img{
+
+}
+nav{
+
+width: 50%;
+}
+
+nav ul{
+    
+list-style: none;
+    
+display: flex;
+    
+justify-content: end;
+}
+nav ul li {
+
+margin-left: 30px;
+}
+nav ul li a {
+    
+text-decoration: none;
+    
+text-transform: uppercase;
+    
+color: #0c0c54;
+}
+
+.banner{
+    background-image: url(../images/bannart.png);
+    min-height: 90vh;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+}
+.banner_content{
+    
+width: 30%;
+    
+text-align: center;
+}
+.banner_content h1{
+    color: #fff;
+    font-size: 67px;
+    text-transform: capitalize;
+    font-weight: 500;
+}
+.banner_content p{
+
+color: #fff;
+
+margin: 20px 0px 30px 0px;
+
+font-size: 16px;
+}
+
+.hori{
+    display: block;
+   background-color: rgb(17, 218, 233);
+    margin: 20px auto 20px;
+    padding: 1px;
+}
+.banner_content button{
+
+background-color: transparent;
+
+border: 1px solid rgb(20, 223, 238);
+
+border-radius: 5px;
+
+padding: 10px 25px;
+
+color: #fff;
+
+text-transform: capitalize;
+transition: .4s all  ease-in-out ;
+}
+
+.banner_content button:hover{
+    background-color: #0ef7d0;
+    color: #fff;
+}
+.icon{
+    position: absolute;
+    left: 50%;
+    top: 88%;
+    transform: translate(-50% , -88%);
+    font-size: 20px;
+    color: #f9f9f9;
+    animation: updown 1s linear infinite;
+
+animation-direction: alternate;
+}
+@keyframes updown{
+    0%{
+       bottom: 70px;
+    }
+    100%{
+        bottom: 30px;
+    }
+}
+.simple{
+
+    width: 100%;
+    
+    padding: 50px 0;
+    
+    background: #f9f9f9;
+    }
+    .block_1{
+
+        width: 80%;
+        
+        margin: auto;
+        
+        text-align: center;
+        }
+        .block_1 p{
+    
+            font-family: 'Lato', sans-serif;
+                
+            font-weight: 400;
+                
+            font-size: 20px;
+                
+            color: #999;
+                
+            margin-top: 15px;
+            }
+
+            .feature{
+
+                width: 80%;
+                
+                margin: 50px auto;
+                
+                display: flex;
+                
+                justify-content: space-between;
+                }
+            .block_3{
+
+                width: 30%;
+                
+                margin: auto;
+                
+                text-align: center;
+                }
+                .block_3 h2{
+                
+                font-family: 'Lato', sans-serif;
+                
+                font-weight: 400;
+                
+                color: #2d3950;
+                
+                margin: 10px auto;
+                }
+                .block_3 p{
+                
+                font-family: 'Lato', sans-serif;
+                
+                font-weight: 400;
+                
+                color: #999;
+                }
+
+                .icon_1{
+
+                    width: 100px;
+                    
+                    height: 100px;
+                    
+                    margin: auto;
+                    
+                    /* Permalink - use to edit and share this gradient: https://colorzilla.com/gradient-editor/#48baff+0,48baff+50,48baff+50,48baff+50,5fc3ff+51,5fc3ff+100 */
+                    
+                    background: #48baff; /* Old browsers */
+                    
+                    background: -moz-linear-gradient(left,  #48baff 0%, #48baff 50%, #48baff 50%, #48baff 50%, #5fc3ff 51%, #5fc3ff 100%); /* FF3.6-15 */
+                    
+                    background: -webkit-linear-gradient(left,  #48baff 0%,#48baff 50%,#48baff 50%,#48baff 50%,#5fc3ff 51%,#5fc3ff 100%); /* Chrome10-25,Safari5.1-6 */
+                    
+                    background: linear-gradient(to right,  #48baff 0%,#48baff 50%,#48baff 50%,#48baff 50%,#5fc3ff 51%,#5fc3ff 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+                    
+                    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#48baff', endColorstr='#5fc3ff',GradientType=1 ); /* IE6-9 */
+                    
+                    position: relative;
+                    
+                    box-shadow: 3px 3px grey;
+                    }
+                    .icon_1 i{
+                        
+                    position: absolute;
+                        
+                    left: 50%;
+                        
+                    top: 50%;
+                        
+                    transform: translate(-50%, -50%);
+                        
+                    font-size: 40px;
+                        
+                    color: #fff;
+                        
+                    text-shadow: 2px 2px rgb(166, 177, 180);
+                    }
+                    .icon_1 i{
+    
+                        position: absolute;
+                            
+                        left: 50%;
+                            
+                        top: 50%;
+                            
+                        transform: translate(-50%, -50%);
+                            
+                        font-size: 40px;
+                            
+                        color: #fff;
+                            
+                        text-shadow: 2px 2px black;
+                        }
+                        .portfolio{
+                        
+                        width: 100%;
+                        
+                        padding: 60px 0;
+                        
+                        background: #f9f9f9;
+                        }
+                        .block_4{
+                        
+                        width: 80%;
+                        
+                        margin: auto;
+                        
+                        text-align: center;
+                        }
+                        .block_4 h1{
+                        
+                        font-family: 'Lato', sans-serif;
+                        
+                        font-weight: 400;
+                        
+                        font-size: 30px;
+                        
+                        color: #2d3950;
+                        }
+                        .block_4 p{
+                        
+                        font-family: 'Lato', sans-serif;
+                        
+                        font-weight: 400;
+                        
+                        font-size: 20px;
+                        
+                        color: #999;
+                        
+                        margin: 15px auto 50px;
+                        }
+                        .works{
+                            
+                        display: flex;
+                            
+                        justify-content: space-between;
+                            
+                        flex-wrap: wrap;
+                        }
+                        .work{
+                        
+                        width: 32%;
+                        }
+                        .work_x{
+                            
+                        margin-bottom: 20px;
+                            
+                        position: relative;
+                        }
+                        .work_x img{
+                        
+                        width: 100%;
+                        
+                        display: block;
+                        }
+                        .work_x ul{
+                        
+                        position: absolute;
+                        
+                        left: 50%;
+                        
+                        top: 50%;
+                        
+                        transform: translate(-50%, -50%);
+                        
+                        display: flex;
+                        
+                        opacity: 0;
+                        }
+                        .work_x ul li{
+                        
+                        list-style: none;
+                        
+                        width: 30px;
+                        
+                        height: 30px;
+                        
+                        border: 2px solid #fff;
+                        
+                        border-radius: 3px;
+                        
+                        display: flex;
+                        
+                        justify-content: center;
+                        
+                        align-items: center;
+                        
+                        margin: 5px;
+                        }
+                        .work_x ul li a{
+                        
+                        color: #fff;
+                        
+                        font-size: 22px;
+                        }
+                        .work_x:hover ul{
+                            opacity: 1;
+                        }
+                        .work_x::before{
+                            content:"";
+                            position: absolute;
+                            left: 50%;
+                            top: 50%;
+                            transform: translate(-50%, -50%);
+                            width: 0%;
+                            height: 0%;
+                            background-color: #15a4fa;
+                            opacity: .5;
+                            transition: .4s all ease-in-out;
+                        }
+                        .work_x:hover::before{
+                            width: 100%;
+                            height: 100%;
+                        }
+
+                        .stay{
+
+                            padding: 50px 0;
+                            
+                            background-image: url(../images/back-groundd.png);
+                            
+                            background-position: center;
+                            
+                            background-repeat: no-repeat;
+                            
+                            background-size: cover;
+                            
+                            position: relative;
+                            
+                            z-index: 0;
+                            }
+                            .stay::before{
+                                content: "";
+                                position: absolute;
+                                left: 0;
+                                top: 0;
+                                height: 100%;
+                                width: 100%;
+                                background-color: #2d3950;
+                                opacity: 0.7;
+                                z-index: -1;
+                            }
+
+                            .block_5{
+
+                                width: 45%;
+                                
+                                margin: auto;
+                                
+                                text-align: center;
+                                }
+                                .block_5 h1{
+                                
+                                font-family: 'Lato', sans-serif;
+                                        
+                                font-weight: 400;
+                                        
+                                font-size: 45px;
+                                        
+                                color: #fff;
+                                }
+                                .block_5 p{
+        
+                                    font-family: 'Lato', sans-serif;
+                                            
+                                    font-weight: 400;
+                                            
+                                    font-size: 18px;
+                                            
+                                    color: #999;
+                                            
+                                    margin: 15px auto 50px;
+                                    }
+
+                                    .block_5 form input{
+
+                                        width: 95%;
+                                        
+                                        padding: 10px;
+                                        
+                                        margin-bottom: 10px;
+                                        
+                                        font-family: 'Lato', sans-serif;
+                                        
+                                        font-weight: 400;
+                                        
+                                        font-size: 18px;
+                                        
+                                        background: transparent;
+                                        
+                                        border: none;
+                                        
+                                        border: 2px solid #999;
+                                        
+                                        border-radius: 3px;
+                                        }
+                                        .block_5 form textarea{
+
+                                            width: 95%;
+                                            
+                                            padding: 10px;
+                                            
+                                            font-family: 'Lato', sans-serif;
+                                            
+                                            font-weight: 400;
+                                            
+                                            font-size: 18px;
+                                            
+                                            background: transparent;
+                                            
+                                            border: none;
+                                            
+                                            border: 2px solid #999;
+                                            
+                                            border-radius: 3px;
+                                            }
+                                            .sub{
+
+                                                margin-top: 10px;
+                                                
+                                                display: flex;
+                                                
+                                                justify-content: space-between;
+                                                }
+                                                .sub input[type="checkbox"]{
+                                                    
+                                                width: auto;
+                                                }
+                                                .sub input[type="submit"]{
+    
+                                                    padding: 7px 30px;
+                                                        
+                                                    font-family: 'Lato', sans-serif;
+                                                        
+                                                    font-weight: 400;
+                                                        
+                                                    font-size: 22px;
+                                                        
+                                                    color: #fff;
+                                                        
+                                                    text-transform: capitalize;
+                                                        
+                                                    border: 2px solid #15a4fa;
+                                                    
+                                                    cursor: pointer;
+                                                    
+                                                    transition: .4s all ease-in-out;
+                                                    }
+                                                    .sub input[type="submit"]:hover{
+                                                    
+                                                    background-color:#15a4fa;
+                                                    
+                                                    color: #fff;
+                                                    }
+                                                    .sub p{
+                                                    
+                                                    display: inline-block;
+                                                    
+                                                    margin-left: 10px;
+                                                    
+                                                    font-family: 'Lato', sans-serif;
+                                                    
+                                                    font-weight: 400;
+                                                    
+                                                    color: #fff;
+                                                    }
+                                                    footer{
+                                                    
+                                                    background: #f9f9f9;
+                                                    
+                                                    padding: 5px 0;
+                                                    }
+                                                    .block_6{
+
+                                                        width: 80%;
+                                                        
+                                                        margin: auto;
+                                                        
+                                                        display: flex;
+                                                        
+                                                        justify-content: space-between;
+                                                        
+                                                        align-items: center;
+                                                        }
+                                                        .logo_x{
+
+                                                            width: 25%;
+                                                            }
+                                                            .logo_x ul{
+                                                            
+                                                            display: flex;
+                                                            
+                                                            justify-content: space-between;
+                                                            
+                                                            align-items: center;
+                                                            }
+                                                            .logo_x ul li{
+                                                            
+                                                            list-style: none;
+                                                            }
+                                                            .logo_x ul li img{
+                                                            
+                                                            margin-top: 5px;
+                                                            }
+                                                            .logo_x ul li a{
+                                                            
+                                                            text-decoration: none;
+                                                            
+                                                            font-family: 'Lato', sans-serif;
+                                                            
+                                                            font-weight: 400;
+                                                            
+                                                            font-size: 18px;
+                                                            
+                                                            color: #999;
+                                                            }
+                                                            .social{
+                                                            
+                                                            width: 20%;
+                                                            }
+                                                            .social ul{
+                                                            
+                                                            display: flex;
+                                                            
+                                                            justify-content: space-between;
+                                                            }
+                                                            .social ul li{
+                                                            
+                                                            width: 40px;
+                                                            
+                                                            height: 40px;
+                                                            
+                                                            list-style: none;
+                                                            
+                                                            background: #15a4fa;
+                                                            
+                                                            border-radius: 3px;
+                                                            
+                                                            position: relative;
+                                                            }
+                                                            .social ul li a{
+                                                                
+                                                            position: absolute;
+                                                                
+                                                            left: 50%;
+                                                                
+                                                            top: 50%;
+                                                                
+                                                            transform: translate(-50%, -50%);
+                                                                
+                                                            color: #fff;
+                                                                
+                                                            font-size: 25px;
+                                                            }
